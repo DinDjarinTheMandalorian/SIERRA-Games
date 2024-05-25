@@ -5,5 +5,5 @@ function otherWorksBTNPressed(){
     window.location.replace("otherworks.html");
 }; 
 function homeBTNPressed(){
-    window.location.replace("main.html");
+    window.location.replace("index.html");
 };
