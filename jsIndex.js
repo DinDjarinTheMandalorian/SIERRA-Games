@@ -1,3 +1,6 @@
 function gameBTNPressed(){
-    alert("The button was pressed");
+    window.location.replace("index_downloadgames.html");
+}; 
+function otherWorksBTNPressed(){
+    window.location.replace("index_otherworks.html");
 }; 
