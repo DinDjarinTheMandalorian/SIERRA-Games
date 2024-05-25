@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="cssIndex.css">
+        <link rel="stylesheet" href="jsIndex.js">
+        <title>SIERRA Games</title>
+    </head>
+
+    <body style="font-family: Exo" id="indexBody">
+        <h1>The programmation is an art</h1>
+        <br>
+        <br>
+    </body>
+
+    <body id="indexMenu">
+        <input id="buttonGames" type="submit" name="button" value="Our Games" onclick="gameBTNPressed();"/>
+        <br>
+        <input id="buttonWorks" type="submit" name="button" value="Other Works" onclick="otherWorksBTNPressed();"/>
+    </body>
+
+    <script>
+        function gameBTNPressed(){
+            window.location.replace("file:///C:/Users/Julien/Desktop/PROG/WebSite/index_downloadgames.html");
+        }; 
+        function otherWorksBTNPressed(){
+            window.location.replace("file:///C:/Users/Julien/Desktop/PROG/WebSite/index_otherworks.html");
+        }; 
+    </script>
+
+</html>
