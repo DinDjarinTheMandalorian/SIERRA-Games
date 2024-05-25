@@ -1,8 +1,8 @@
 function gameBTNPressed(){
-    window.location.replace("downloadgames.html");
+    window.location.replace("index_downloadgames.html");
 }; 
 function otherWorksBTNPressed(){
-    window.location.replace("otherworks.html");
+    window.location.replace("index_otherworks.html");
 }; 
 function homeBTNPressed(){
     window.location.replace("index.html");
